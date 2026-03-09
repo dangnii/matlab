@@ -1,0 +1,11 @@
+#pragma warning(disable:4996)
+#include <stdio.h>
+
+int main() {
+	int A, B;
+	scanf("%d %d", &A, &B);
+	int  rem = 0;
+	rem = A - B;
+	printf("%d", rem);
+	return 0;
+}
