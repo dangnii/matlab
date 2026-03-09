@@ -1,0 +1,11 @@
+#pragma warning(disable:4996)
+#include <stdio.h>
+
+int main() {
+	int A, B;
+	scanf("%d %d", &A, &B);
+	int k = 0;
+	k = A * B;
+	printf("%d", k);
+	return 0;
+}
