@@ -1,0 +1,11 @@
+#pragma warning(disable:4996)
+#include <stdio.h>
+
+int main() {
+	int A, B;
+	scanf("%d %d", &A, &B);
+	double k;
+	k =(double) A / B;// 실수나눗셈 실행
+	printf("%.9f", k);
+	return 0;
+}
